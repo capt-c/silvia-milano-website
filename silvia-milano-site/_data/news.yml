@@ -1,0 +1,48 @@
+# News items — most recent first
+# Types: talk, keynote, workshop, publication, award, media, event
+
+- date: "Jun 2025"
+  type: "talk"
+  title: "'Phaedrus' Error and Hayek's Trap' — Uehiro Workshop on AI, Relationships and Influence, Oxford"
+
+- date: "Jun 2025"
+  type: "talk"
+  title: "'Algorithmic Recommendation: What's the Problem?' — CDT ART-AI Seminar, Bath"
+  url: "https://cdt-art-ai.ac.uk/news/events/algorithmic-recommendations-whats-the-problem-with-silvia-milano/"
+
+- date: "May 2025"
+  type: "workshop"
+  title: "Workshop on Recommender Systems and Digital Nudging — MCMP Munich"
+  description: "I organised this interdisciplinary workshop bringing together researchers from computer science, economics, and philosophy."
+  url: "https://www.mcmp.philosophie.uni-muenchen.de/events_this-_week/recommender_systems_26052025/index.html"
+
+- date: "May 2025"
+  type: "talk"
+  title: "Epistemic obstacles to the governance of algorithmic systems — European New School of Digital Studies, Frankfurt (Oder)"
+
+- date: "Mar 2025"
+  type: "keynote"
+  title: "Keynote: 'Accuracy of Prediction and Freedom of Choice' — GWP Congress on Philosophy of Science, Erlangen"
+  url: "https://www.wissphil.de/gwp-conference/"
+
+- date: "Jan 2025"
+  type: "talk"
+  title: "'Algorithmic Recommendation: What's the Problem?' — Ethics of AI Research Colloquium, LMU Munich"
+
+- date: "Jul 2025"
+  type: "talk"
+  title: "'Recommender Systems and Epistemic Polarisation' — BSPS Conference, Glasgow"
+
+- date: "Jun 2024"
+  type: "talk"
+  title: "Public lecture on Large Language Models in Teaching and Research — LMU Munich"
+
+- date: "Mar 2024"
+  type: "talk"
+  title: "'AI and Epistemic Injustice' — COGITO Epistemology Research Centre, Glasgow"
+
+- date: "Aug 2024"
+  type: "talk"
+  title: "Tutorial on Gen-RecSys — KDD Conference, Barcelona"
+  description: "Co-presented with Yashar Deldjoo et al."
+  url: "https://doi.org/10.1145/3637528.3671474"

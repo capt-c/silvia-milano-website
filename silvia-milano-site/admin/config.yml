@@ -1,0 +1,95 @@
+backend:
+  name: git-gateway
+  branch: main
+
+# Enables the editorial workflow (save as draft, review before publishing)
+publish_mode: editorial_workflow
+
+media_folder: "assets/img"
+public_folder: "/assets/img"
+
+collections:
+
+  # ── About / Bio ──────────────────────────────────────────
+  - name: "settings"
+    label: "Site settings"
+    files:
+
+      - label: "About & Bio"
+        name: "about"
+        file: "_data/about.yml"
+        fields:
+          - { label: "Full name", name: "name", widget: "string" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Institution", name: "institution", widget: "string" }
+          - { label: "Second role/affiliation", name: "role2", widget: "string", required: false }
+          - { label: "Email", name: "email", widget: "string" }
+          - { label: "Google Scholar URL", name: "scholar_url", widget: "string", required: false }
+          - { label: "ORCID URL", name: "orcid_url", widget: "string", required: false }
+          - label: "Profile photo"
+            name: "photo"
+            widget: "image"
+            required: false
+            hint: "Upload a square or portrait photo. It will appear on the homepage."
+          - { label: "Short bio (homepage tagline)", name: "bio_short", widget: "text" }
+          - { label: "Full bio (about page)", name: "bio_full", widget: "markdown" }
+
+  # ── Publications ─────────────────────────────────────────
+      - label: "Publications"
+        name: "publications"
+        file: "_data/publications.yml"
+        fields:
+
+          - label: "Journal articles"
+            name: "articles"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Authors", name: "authors", widget: "string" }
+              - { label: "Venue / journal", name: "venue", widget: "string" }
+              - { label: "Year", name: "year", widget: "number", value_type: "int" }
+              - { label: "URL / DOI link", name: "url", widget: "string", required: false }
+              - { label: "Note (e.g. prize)", name: "note", widget: "string", required: false }
+
+          - label: "Book chapters"
+            name: "book_chapters"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Authors", name: "authors", widget: "string" }
+              - { label: "Book / venue", name: "venue", widget: "string" }
+              - { label: "Year", name: "year", widget: "number", value_type: "int" }
+              - { label: "URL", name: "url", widget: "string", required: false }
+
+          - label: "Reports & edited volumes"
+            name: "reports"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Authors", name: "authors", widget: "string" }
+              - { label: "Publisher / venue", name: "venue", widget: "string" }
+              - { label: "Year", name: "year", widget: "number", value_type: "int" }
+              - { label: "URL", name: "url", widget: "string", required: false }
+
+          - label: "In preparation / under review"
+            name: "in_progress"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Authors", name: "authors", widget: "string", required: false }
+              - { label: "Short description", name: "description", widget: "text", required: false }
+
+  # ── News & Events ─────────────────────────────────────────
+      - label: "News & Events"
+        name: "news"
+        file: "_data/news.yml"
+        widget: "list"
+        fields:
+          - { label: "Date (e.g. Jun 2025)", name: "date", widget: "string" }
+          - label: "Type"
+            name: "type"
+            widget: "select"
+            options: ["talk", "keynote", "workshop", "publication", "award", "media", "interview", "podcast", "essay", "policy", "event"]
+          - { label: "Title / description", name: "title", widget: "string" }
+          - { label: "More details (optional)", name: "description", widget: "text", required: false }
+          - { label: "Link URL (optional)", name: "url", widget: "string", required: false }
