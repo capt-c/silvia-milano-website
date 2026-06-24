@@ -1,13 +1,65 @@
-<!doctype html>
-<html>
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="robots" content="noindex">
-  <title>Content Manager · Silvia Milano</title>
-</head>
-<body>
-  <!-- Decap CMS (formerly Netlify CMS) -->
-  <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
-</body>
-</html>
+--- layout: default title: Home description: "Silvia Milano â€” philosopher working on epistemology and AI ethics at TU Munich." ---
+Silvia
+Milano
+
+Akademische RÃ¤tin (Assoc. Professor) Â· TU Munich
+Head of Research Â· Ethical Data Initiative
+
+I work at the intersection of epistemology and AI ethics, with a focus on recommender systems â€” how they shape what we know, what we choose, and who we become.
+
+View research Get in touch
+Chair of Philosophy & History of Science and Technology, TUM
+Ethical Data Initiative, TUM Think Tank
+{% if site.data.about.photo %}  Silvia Milano {% else %}
+ Add your photo in
+assets/img/
+{% endif %}
+
+Research focus
+
+What I work on
+
+âš–ï¸
+Ethics of Recommender Systems
+
+How algorithmic recommendations shape information access, autonomy, and the social fabric â€” and what ethical frameworks can evaluate and reform them.
+
+ðŸ”
+Epistemology & AI
+
+Epistemic dimensions of algorithmic profiling, fairness, and AI-mediated knowledge, including hermeneutical injustice and epistemic polarisation.
+
+ðŸŽ²
+Self-Locating Belief
+
+Bayesian approaches to de se uncertainty â€” beliefs about who you are, where you are, and when you are â€” and their implications for rational choice.
+
+Publications
+
+Recent work
+
+All publications â†’
+{% for pub in site.data.publications.articles limit:4 %}
+{{ pub.year }}
+{{ pub.venue }}
+
+{% if pub.url %}{{ pub.title }}{% else %}{{ pub.title }}{% endif %}
+
+{{ pub.authors }}
+
+{% endfor %}
+News & events
+
+Recent activity
+
+All news â†’
+{% for item in site.data.news limit:4 %}
+{{ item.date }}
+{{ item.type }}
+{% if item.url %}{{ item.title }}{% else %}{{ item.title }}{% endif %}
+
+{% if item.description %}
+{{ item.description }}
+
+{% endif %}
+{% endfor %}
