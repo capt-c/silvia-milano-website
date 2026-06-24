@@ -1,18 +1,18 @@
 [build]
-  base    = "silvia-milano-site"
   publish = "_site"
   command = "bundle exec jekyll build"
-
+ 
 [build.environment]
   JEKYLL_ENV = "production"
   RUBY_VERSION = "3.2.0"
-
+ 
 # Redirect bare domain to www (optional — remove if you prefer the other way)
 [[redirects]]
   from = "https://silvia-milano.com/*"
   to   = "https://www.silvia-milano.com/:splat"
   status = 301
-
+ 
 # Enable Netlify Identity for the CMS login
 [dev]
   command = "jekyll serve --watch"
+ 
