@@ -1,0 +1,25 @@
+---
+layout: default
+title: CV
+description: "Academic CV of Silvia Milano — philosopher at TU Munich."
+---
+
+<main>
+  <section class="section section-narrow">
+    <div class="section-header">
+      <div>
+        <p class="section-label">Curriculum vitae</p>
+        <h1 class="section-title">About me</h1>
+      </div>
+      {% if site.data.about.cv_pdf %}
+        <a href="{{ site.data.about.cv_pdf | relative_url }}" class="btn btn-primary" download>Download CV (PDF)</a>
+      {% else %}
+        <a href="{{ '/assets/cv.pdf' | relative_url }}" class="btn btn-primary" download>Download CV (PDF)</a>
+      {% endif %}
+    </div>
+
+    <div class="bio-full">
+      {{ site.data.about.bio_full | markdownify }}
+    </div>
+  </section>
+</main>
