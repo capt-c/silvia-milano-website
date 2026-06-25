@@ -1,20 +1,26 @@
 articles:
 
-  - title: "Algorithmic profiling as a source of hermeneutical injustice"
-    authors: "Milano, S. and C. Prunkl"
-    venue: "Philosophical Studies"
-    year: 2025
-    url: "https://doi.org/10.1007/s11098-023-02095-2"
-
   - title: "How to Foster Responsible and Resilient Data: The Ethical Data Initiative"
     authors: "Hajek, K. M., Trauttmansdorff, P., Leonelli, S., Guttinger, S., and Milano, S."
     venue: "Computer, 58(4), 95–99"
     year: 2025
     url: "https://doi.org/10.1109/MC.2024.3522696"
 
+  - title: "Algorithmic profiling as a source of hermeneutical injustice"
+    authors: "Milano, S. and C. Prunkl"
+    venue: "Philosophical Studies, 182(1), 185–203"
+    year: 2025
+    url: "https://doi.org/10.1007/s11098-023-02095-2"
+
+  - title: "Tutorial on Recommendation with Generative Models (Gen-RecSys)"
+    authors: "Deldjoo, Y., He, Z., McAuley, J., Korikov, A., Sanner, S., Ramisa, A., Vidal, R., Sathiamoorthy, M., Kasirzadeh, A., and Milano, S."
+    venue: "Proceedings of WSDM 2025, pp. 1002–1004"
+    year: 2025
+    url: "https://doi.org/10.1145/3701551.3703485"
+
   - title: "A review of modern recommender systems using generative models (Gen-RecSys)"
     authors: "Deldjoo, Y., He, Z., McAuley, J., Korikov, A., Sanner, S., Ramisa, A., Vidal, R., Sathiamoorthy, M., Kasirzadeh, A., and Milano, S."
-    venue: "ACM KDD 2024, pp. 6448–6458"
+    venue: "Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining, pp. 6448–6458"
     year: 2024
     url: "https://doi.org/10.1145/3637528.3671474"
 
@@ -28,7 +34,7 @@ articles:
     authors: "Milano, S. and A. Perea"
     venue: "Economics and Philosophy, 40(1), 190–211"
     year: 2024
-    url: "https://www.cambridge.org/core/journals/economics-and-philosophy/article/rational-updating-at-the-crossroads/2589BDA83858F0122E884426BF323FEA"
+    url: "https://doi.org/10.1017/S0266267122000360"
 
   - title: "Large language models challenge the future of higher education"
     authors: "Milano, S., McGrane, J. and Leonelli, S."
@@ -40,7 +46,7 @@ articles:
     authors: "Milano, S."
     venue: "Erkenntnis, 87, 657–676"
     year: 2022
-    url: "https://link.springer.com/article/10.1007/s10670-019-00212-4"
+    url: "https://doi.org/10.1007/s10670-019-00212-4"
     note: "Winner of the LSE Philosophy Popper Prize 2017/18"
 
   - title: "Epistemic fragmentation poses a threat to the governance of online targeting"
@@ -53,31 +59,31 @@ articles:
     authors: "Milano, S., Taddeo, M. and Floridi, L."
     venue: "The Information Society, 37(1), 35–45"
     year: 2021
-    url: "https://doi.org/10.1080/01972243.2020.1832701"
+    url: "https://doi.org/10.1080/01972243.2020.1832636"
 
   - title: "Recommender Systems and their Ethical Challenges"
     authors: "Milano, S., Taddeo, M. and Floridi, L."
     venue: "AI & Society, 35, 957–967"
     year: 2020
-    url: "https://link.springer.com/article/10.1007/s00146-020-00950-y"
+    url: "https://doi.org/10.1007/s00146-020-00950-y"
 
 
 book_chapters:
 
-  - title: "Recommended!"
-    authors: "Milano, S."
-    venue: "Living with AI: Moral Challenges, ed. David Edmonds. Oxford University Press"
-    year: 2024
-
   - title: "Societal Harms and Risks"
     authors: "Kasirzadeh, A. and Milano, S."
-    venue: "Recommendation with Generative Models, arXiv:2409.15173"
-    year: 2024
-    url: "https://arxiv.org/abs/2409.15173"
+    venue: "Recommendation with Generative Models. Foundations and Trends in Information Retrieval, 20(1–2), 1–176"
+    year: 2026
+    url: "https://doi.org/10.1108/FTINR-06-2025-0109"
 
   - title: "Personalizzazione, frammentazione: le piattaforme digitali e le nuove modalità di accesso all'informazione"
     authors: "Milano, S."
     venue: "Trasformazione Digitale e Intelligenza Artificiale: Una mappa delle sfide per i media di servizio pubblico, RAI Libri"
+    year: 2024
+
+  - title: "Recommended!"
+    authors: "Milano, S."
+    venue: "Living with AI: Moral Challenges, ed. David Edmonds. Oxford University Press"
     year: 2024
 
 
@@ -87,29 +93,35 @@ reports:
     authors: "Milano, S., Jones, E. and Miller, C."
     venue: "Ada Lovelace Institute"
     year: 2022
-    url: "https://www.adalovelaceinstitute.org/report/inform-educate-entertain-recommend/"
+    url: "https://www.adalovelaceinstitute.org/wp-content/uploads/2022/11/Ada-Lovelace-Institute-Inform-Educate-Entertain...and-Recommend-Nov-2022.pdf"
 
   - title: "The 2019 Yearbook of the Digital Ethics Lab"
     authors: "Burr, C. and Milano, S. (eds.)"
     venue: "Springer"
     year: 2020
-    url: "https://link.springer.com/book/10.1007/978-3-030-29145-7"
+    url: "https://doi.org/10.1007/978-3-030-29145-7_1"
 
 
 in_progress:
 
   - title: "Book manuscript on AI and Rationality"
 
+  - title: "AI and relationship norms"
+    description: "AI systems are increasingly involved in our social life and relationships — formed with AI, facilitated by AI, or datafied in service of AI. Drawing on literature on epistemic injustice, this paper argues that current approaches to regulate this may put our relational autonomy at risk."
+
   - title: "Recommender Systems for Social Good: Perspectives on Evaluation"
     authors: "Milano, S. et al."
-    description: "Joint paper with participants in the workshop on Recommender Systems and Digital Nudging, MCMP Munich, May 2025."
+    description: "Joint paper with selected participants in the workshop on Recommender Systems and Digital Nudging, MCMP Munich, May 2025."
 
   - title: "Recommender Systems Worsen Epistemic Polarisation"
     authors: "Milano, S. and Miranda, L."
-    description: "Uses agent-based modelling to study belief evolution in social networks mediated by recommender systems."
+    description: "Uses agent-based modelling to study belief evolution in social networks mediated by recommender systems. Findings indicate that belief polarisation emerges rapidly irrespective of the choice of recommendation protocol."
 
   - title: "Algorithmic Profiling, Behavioural Fairness and Equality of Opportunity"
     description: "Argues that personalised predictions based on behavioural variables limit equality of opportunity."
 
   - title: "Centred Probabilities can be Objective Chances"
-    description: "Argues that probabilities defined over centred or self-locating propositions can be interpreted as objective chances."
+    description: "Argues that probabilities defined over centred or self-locating propositions can be interpreted as objective chances when they satisfy a specific set of conditions, with implications for the understanding of natural laws."
+
+  - title: "Two modes of reasoning about de se beliefs"
+    description: "Argues that reasoning with self-locating beliefs can follow an explorer or a path-finder mode, and investigates the relationship between the two modes."
