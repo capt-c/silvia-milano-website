@@ -243,7 +243,6 @@ nav {
   background: var(--bg-limestone);
 }
 
-
 /* Section label — italic serif instead of caps */
 .section-label {
   font-family: var(--font-serif);
@@ -347,26 +346,47 @@ nav {
 
 .section-header .section-title { margin-bottom: 0; }
 
-/* ── Research theme cards ── */
+/* ── Research theme cards — editorial numbered ── */
 .themes-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
+  gap: 0;
+  border-top: 1px solid var(--border);
+  margin-top: 0.5rem;
 }
 
 .theme-card {
   background: transparent;
   border: none;
-  border-top: 2px solid var(--sand);
-  border-radius: 0;
-  padding: 1.75rem 0 0;
+  border-right: 1px solid var(--border);
+  padding: 2.75rem 2.5rem 2.75rem 0;
+}
+
+.theme-card:last-child {
+  border-right: none;
+  padding-right: 0;
+}
+
+.theme-card:not(:first-child) {
+  padding-left: 2.5rem;
+}
+
+.theme-number {
+  font-family: var(--font-serif);
+  font-size: 2.75rem;
+  font-weight: 400;
+  color: var(--sand);
+  line-height: 1;
+  margin-bottom: 1.75rem;
+  letter-spacing: -0.02em;
 }
 
 .theme-icon {
-  width: 42px;
-  height: 42px;
+  width: 24px;
+  height: 24px;
   color: var(--accent);
-  margin-bottom: 1.25rem;
+  margin-bottom: 1rem;
+  opacity: 0.55;
 }
 
 .theme-icon svg {
@@ -376,17 +396,17 @@ nav {
 
 .theme-card h3 {
   font-family: var(--font-serif);
-  font-size: 1.05rem;
+  font-size: 1.15rem;
   font-weight: 600;
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.75rem;
   color: var(--text);
-  line-height: 1.35;
+  line-height: 1.3;
 }
 
 .theme-card p {
   font-size: 0.88rem;
   color: var(--text-mid);
-  line-height: 1.65;
+  line-height: 1.7;
 }
 
 /* ── Publication list ── */
@@ -712,6 +732,9 @@ footer::before {
     order: -1;
   }
   .themes-grid { grid-template-columns: 1fr; }
+  .theme-card { border-right: none; border-bottom: 1px solid var(--border); padding: 2rem 0; }
+  .theme-card:last-child { border-bottom: none; }
+  .theme-card:not(:first-child) { padding-left: 0; }
   .section { padding: 2.5rem 1.5rem; }
   .page-header { padding: 2.5rem 1.5rem 2rem; }
   .pub-item { grid-template-columns: 1fr; gap: 0.2rem; }
