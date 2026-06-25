@@ -1,0 +1,66 @@
+---
+layout: default
+title: News & Events
+description: "Talks, public engagement, media appearances, and events by Silvia Milano."
+---
+
+<main>
+
+  <div class="page-header">
+    <div class="page-header-inner">
+      <p class="section-label">News &amp; Events</p>
+      <h1>Activity</h1>
+      <p>Selected recent talks, public engagement, and media appearances. For a complete list of talks see my <a href="{{ '/cv/' | relative_url }}">CV</a>.</p>
+    </div>
+  </div>
+
+  <!-- ── Public engagement & media ── -->
+  <section class="section">
+    <p class="section-label">Public engagement</p>
+    <h2 class="section-title">Engagement &amp; media</h2>
+    <div class="news-list">
+      {% for item in site.data.news %}
+        {% if item.type == "media" or item.type == "policy" or item.type == "event" or item.type == "award" %}
+        <div class="news-item">
+          <span class="news-date">{{ item.date }}</span>
+          <div class="news-content">
+            <span class="news-type-badge">{{ item.type }}</span>
+            <p class="news-title">
+              {% if item.url %}<a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}
+            </p>
+            {% if item.description %}<p class="news-desc">{{ item.description }}</p>{% endif %}
+          </div>
+        </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </section>
+
+  <!-- ── Selected talks ── -->
+  <section class="section section-limestone">
+    <p class="section-label">Selected talks</p>
+    <h2 class="section-title">Recent talks</h2>
+    <div class="news-list">
+      {% assign talk_count = 0 %}
+      {% for item in site.data.news %}
+        {% if item.type == "talk" or item.type == "keynote" or item.type == "workshop" %}
+          {% if talk_count < 12 %}
+          <div class="news-item">
+            <span class="news-date">{{ item.date }}</span>
+            <div class="news-content">
+              <span class="news-type-badge">{{ item.type }}</span>
+              <p class="news-title">
+                {% if item.url %}<a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}
+              </p>
+              {% if item.description %}<p class="news-desc">{{ item.description }}</p>{% endif %}
+            </div>
+          </div>
+          {% assign talk_count = talk_count | plus: 1 %}
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    </div>
+    <p class="section-more"><a href="{{ '/cv/' | relative_url }}">Full list of talks in CV →</a></p>
+  </section>
+
+</main>
