@@ -16,7 +16,7 @@ description: "Publications, book chapters, reports, and ongoing research by Silv
 
   <!-- ── Articles ── -->
   <section class="section">
-    <p class="section-label">Journal articles</p>
+#    <p class="section-label">Journal articles</p>
     <h2 class="section-title">Articles</h2>
     <ul class="pub-list">
       {% for pub in site.data.publications.articles %}
@@ -39,7 +39,7 @@ description: "Publications, book chapters, reports, and ongoing research by Silv
 
   <!-- ── Book chapters ── -->
   <section class="section">
-    <p class="section-label">Contributions</p>
+#    <p class="section-label">Contributions</p>
     <h2 class="section-title">Book chapters</h2>
     <ul class="pub-list">
       {% for pub in site.data.publications.book_chapters %}
@@ -59,8 +59,8 @@ description: "Publications, book chapters, reports, and ongoing research by Silv
 
   <!-- ── Reports & other ── -->
   <section class="section">
-    <p class="section-label">Policy &amp; public work</p>
-    <h2 class="section-title">Reports &amp; other writing</h2>
+#    <p class="section-label">Reports &amp; other writing</p>
+    <h2 class="section-title">Policy &amp; public work</h2>
     <ul class="pub-list">
       {% for pub in site.data.publications.reports %}
       <li class="pub-item">
@@ -79,12 +79,12 @@ description: "Publications, book chapters, reports, and ongoing research by Silv
 
   <!-- ── In progress ── -->
   <section class="section">
-    <p class="section-label">Work in progress</p>
+#    <p class="section-label">Work in progress</p>
     <h2 class="section-title">Under review &amp; in preparation</h2>
     <ul class="pub-list">
       {% for pub in site.data.publications.in_progress %}
       <li class="pub-item">
-        <span class="pub-year" style="color: var(--text-light); font-style: italic;">forthcoming</span>
+        <span class="pub-year" style="color: var(--text-light); font-style: italic;"></span>
         <div class="pub-body">
           <p class="pub-title">{{ pub.title }}</p>
           {% if pub.authors %}<p class="pub-authors">{{ pub.authors }}</p>{% endif %}
