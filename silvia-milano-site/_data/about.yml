@@ -10,7 +10,7 @@ orcid_url: "https://orcid.org"
 
 # Set photo to the filename in assets/img/, e.g. "silvia-milano.jpg"
 # Leave blank until you add your photo
-photo: ""
+photo: "/assets/img/silvia-milano.jpg"
 
 bio_short: >
   I work at the intersection of epistemology and AI ethics, with a focus on recommender systems —
