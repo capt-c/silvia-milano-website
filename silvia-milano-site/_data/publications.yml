@@ -11,6 +11,7 @@ articles:
     venue: "Philosophical Studies, 182(1), 185–203"
     year: 2025
     url: "https://doi.org/10.1007/s11098-023-02095-2"
+    featured: true
 
   - title: "Advanced AI assistants that act on our behalf may not be ethically or legally feasible"
     authors: "Milano, S. and S. Nyholm"
@@ -23,6 +24,7 @@ articles:
     venue: "Economics and Philosophy, 40(1), 190–211"
     year: 2024
     url: "https://doi.org/10.1017/S0266267122000360"
+    featured: true
 
   - title: "Large language models challenge the future of higher education"
     authors: "Milano, S., McGrane, J. and Leonelli, S."
@@ -36,12 +38,14 @@ articles:
     year: 2022
     url: "https://doi.org/10.1007/s10670-019-00212-4"
     note: "Winner of the LSE Philosophy Popper Prize 2017/18"
+    featured: true
 
   - title: "Epistemic fragmentation poses a threat to the governance of online targeting"
     authors: "Milano, S., Mittelstadt, B., Wachter, S. and Russell, C."
     venue: "Nature Machine Intelligence, 3, 466–472"
     year: 2021
     url: "https://doi.org/10.1038/s42256-021-00358-3"
+    featured: true
 
   - title: "Ethical Aspects of Multi-stakeholder Recommendation Systems"
     authors: "Milano, S., Taddeo, M. and Floridi, L."
@@ -54,6 +58,7 @@ articles:
     venue: "AI & Society, 35, 957–967"
     year: 2020
     url: "https://doi.org/10.1007/s00146-020-00950-y"
+    featured: true
 
 
 book_chapters:
@@ -73,6 +78,7 @@ book_chapters:
     authors: "Milano, S."
     venue: "Living with AI: Moral Challenges, ed. David Edmonds. Oxford University Press"
     year: 2024
+    featured: true
 
 
 proceedings: 
