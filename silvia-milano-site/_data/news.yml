@@ -1,5 +1,69 @@
 # News items — most recent first
-# Types: talk, keynote, workshop, publication, award, media, event
+# Types: talk, keynote, workshop, media, policy, award, event
+# Section is determined by type:
+#   engagement: media, policy, event, award
+#   talks: talk, keynote, workshop
+
+# ── Public engagement & media ──────────────────────────────────────
+
+- date: "Jun 2026"
+  type: "media"
+  title: "Big Open Science Podcast | S01E12: Inside the Ethical Data Initiative: research, data and trust"
+  url: "https://sciros.hypotheses.org/2775"
+
+- date: "Jun 2026"
+  type: "event"
+  title: "RDA Webinar on Recommender Systems for Social Good"
+  description: "Online webinar across multiple time zones. Recordings and slides available on the RDA website."
+  url: "https://www.rd-alliance.org/news/rda-webinar-recommender-systems-for-social-good-dr-silvia-milano/"
+
+- date: "Dec 2024"
+  type: "media"
+  title: "\"Wir brauchen Schutzmechanismen\" — IPAI Impact Magazin"
+  description: "Interview on responsibility and trust in interacting with AI assistants."
+
+- date: "Jun 2024"
+  type: "event"
+  title: "Public lecture on Large Language Models in Teaching and Research — LMU Munich"
+
+- date: "Dec 2022"
+  type: "event"
+  title: "Invited expert discussant, Workshop on Technological Influence — DeepMind"
+
+- date: "Nov 2022"
+  type: "event"
+  title: "Expert consultant: 'The ethics of recommendation systems in public service media' — Ada Lovelace Institute & BBC"
+  description: "AHRC-funded project. Final report co-authored with Elliot Jones (Ada) and Catherine Miller (European AI Fund)."
+  url: "https://www.adalovelaceinstitute.org/wp-content/uploads/2022/11/Ada-Lovelace-Institute-Inform-Educate-Entertain...and-Recommend-Nov-2022.pdf"
+
+- date: "2022"
+  type: "media"
+  title: "Ethical challenges of recommender systems — Towards Data Science podcast"
+  url: "https://towardsdatascience.com/ethical-problems-with-recommender-systeems-398198b5a4d2"
+  description: "Interview with Jeremie Harries on the ethical dimensions of recommendation algorithms."
+
+- date: "Jul 2021"
+  type: "media"
+  title: "\"Targeted ads isolate and divide us even when they're not political\" — The Conversation"
+  url: "https://doi.org/10.64628/AB.5kenj3r4t"
+
+- date: "Oct 2020"
+  type: "event"
+  title: "Invited academic expert, round table on Ethics in Recommender Systems — IG/Facebook Policy team"
+
+- date: "Jul 2020"
+  type: "policy"
+  title: "Invited academic expert on regulating recommendation systems — ROVERA project, European Commission"
+
+- date: "Oct 2019"
+  type: "policy"
+  title: "UK Parliamentary briefing on algorithms and accountability"
+
+- date: "Nov 2019"
+  type: "event"
+  title: "AI reshaping privacy — Women Leading in AI conference, London"
+
+# ── Talks ──────────────────────────────────────────────────────────
 
 - date: "Jun 2026"
   type: "talk"
@@ -10,12 +74,6 @@
   type: "keynote"
   title: "Keynote: 'Borrowed Wisdom: AI-assisted learning and the temptation of easy knowledge' — EUonAIR Symposium on the Ethics of Generative AI in Education and Research, Lugano"
   url: "https://www.supsi.ch/en/euonair-symposium-on-the-ethics-of-generative-ai-in-education-and-research-"
-
-- date: "Jun 2026"
-  type: "event"
-  title: "RDA Webinar on Recommender Systems for Social Good"
-  description: "Online webinar across multiple time zones. Recordings and slides available on the RDA website."
-  url: "https://www.rd-alliance.org/news/rda-webinar-recommender-systems-for-social-good-dr-silvia-milano/"
 
 - date: "Mar 2026"
   type: "workshop"
@@ -60,10 +118,6 @@
   type: "talk"
   title: "'Algorithmic Recommendation: What's the Problem?' — Ethics of AI Research Colloquium, LMU Munich"
 
-- date: "Jan 2025"
-  type: "talk"
-  title: "'Algorithmic Recommendation: What's the Problem?' — WIP Seminar, MCMP, LMU Munich"
-
 - date: "Aug 2024"
   type: "talk"
   title: "Tutorial on Gen-RecSys — KDD Conference, Barcelona"
@@ -77,14 +131,6 @@
 - date: "Jul 2024"
   type: "talk"
   title: "'Accuracy and Freedom' — Northeastern Ethics & Epistemology Workshop, London"
-
-- date: "Jun 2024"
-  type: "talk"
-  title: "Public lecture on Large Language Models in Teaching and Research — LMU Munich"
-
-- date: "Jun 2024"
-  type: "talk"
-  title: "'Recommender Systems and Epistemic Polarisation' — Workshop on Agent-Based Modelling, MCMP, LMU Munich"
 
 - date: "May 2024"
   type: "talk"
@@ -117,7 +163,3 @@
 - date: "Mar 2023"
   type: "talk"
   title: "'Epistemic Injustice and Algorithmic Profiling' — Invited lecture for the MSt in Practical Ethics, Uehiro Centre, University of Oxford"
-
-- date: "May 2023"
-  type: "talk"
-  title: "'Epistemic obstacles to the governance of algorithmic systems' — Workshop on the Ethics of Persuasive Technologies, Oxford"
