@@ -12,18 +12,6 @@ articles:
     year: 2025
     url: "https://doi.org/10.1007/s11098-023-02095-2"
 
-  - title: "Tutorial on Recommendation with Generative Models (Gen-RecSys)"
-    authors: "Deldjoo, Y., He, Z., McAuley, J., Korikov, A., Sanner, S., Ramisa, A., Vidal, R., Sathiamoorthy, M., Kasirzadeh, A., and Milano, S."
-    venue: "Proceedings of WSDM 2025, pp. 1002–1004"
-    year: 2025
-    url: "https://doi.org/10.1145/3701551.3703485"
-
-  - title: "A review of modern recommender systems using generative models (Gen-RecSys)"
-    authors: "Deldjoo, Y., He, Z., McAuley, J., Korikov, A., Sanner, S., Ramisa, A., Vidal, R., Sathiamoorthy, M., Kasirzadeh, A., and Milano, S."
-    venue: "Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining, pp. 6448–6458"
-    year: 2024
-    url: "https://doi.org/10.1145/3637528.3671474"
-
   - title: "Advanced AI assistants that act on our behalf may not be ethically or legally feasible"
     authors: "Milano, S. and S. Nyholm"
     venue: "Nature Machine Intelligence, 6(8), 846–847"
@@ -85,6 +73,21 @@ book_chapters:
     authors: "Milano, S."
     venue: "Living with AI: Moral Challenges, ed. David Edmonds. Oxford University Press"
     year: 2024
+
+
+proceedings: 
+
+  - title: "Tutorial on Recommendation with Generative Models (Gen-RecSys)"
+    authors: "Deldjoo, Y., He, Z., McAuley, J., Korikov, A., Sanner, S., Ramisa, A., Vidal, R., Sathiamoorthy, M., Kasirzadeh, A., and Milano, S."
+    venue: "Proceedings of WSDM 2025, pp. 1002–1004"
+    year: 2025
+    url: "https://doi.org/10.1145/3701551.3703485"
+
+  - title: "A review of modern recommender systems using generative models (Gen-RecSys)"
+    authors: "Deldjoo, Y., He, Z., McAuley, J., Korikov, A., Sanner, S., Ramisa, A., Vidal, R., Sathiamoorthy, M., Kasirzadeh, A., and Milano, S."
+    venue: "Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining, pp. 6448–6458"
+    year: 2024
+    url: "https://doi.org/10.1145/3637528.3671474"
 
 
 reports:
