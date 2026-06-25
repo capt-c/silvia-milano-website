@@ -351,19 +351,16 @@ nav {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 0;
-  border-top: 1px solid var(--border);
   margin-top: 0.5rem;
 }
 
 .theme-card {
   background: transparent;
   border: none;
-  border-right: 1px solid var(--border);
   padding: 2.75rem 2.5rem 2.75rem 0;
 }
 
 .theme-card:last-child {
-  border-right: none;
   padding-right: 0;
 }
 
@@ -732,8 +729,7 @@ footer::before {
     order: -1;
   }
   .themes-grid { grid-template-columns: 1fr; }
-  .theme-card { border-right: none; border-bottom: 1px solid var(--border); padding: 2rem 0; }
-  .theme-card:last-child { border-bottom: none; }
+  .theme-card { padding: 2rem 0; }
   .theme-card:not(:first-child) { padding-left: 0; }
   .section { padding: 2.5rem 1.5rem; }
   .page-header { padding: 2.5rem 1.5rem 2rem; }
