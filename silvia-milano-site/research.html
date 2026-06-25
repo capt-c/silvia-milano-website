@@ -57,6 +57,26 @@ description: "Publications, book chapters, reports, and ongoing research by Silv
     </ul>
   </section>
 
+  <!-- ── Conference proceedings ── -->
+  <section class="section">
+<!--    <p class="section-label">Contributions</p>  -->
+    <h2 class="section-title">Conference proceedings</h2>
+    <ul class="pub-list">
+      {% for pub in site.data.publications.proceedings %}
+      <li class="pub-item">
+        <span class="pub-year">{{ pub.year }}</span>
+        <div class="pub-body">
+          <p class="pub-venue">{{ pub.venue }}</p>
+          <p class="pub-title">
+            {% if pub.url %}<a href="{{ pub.url }}" target="_blank" rel="noopener">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}
+          </p>
+          <p class="pub-authors">{{ pub.authors }}</p>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+  
   <!-- ── Reports & other ── -->
   <section class="section">
 <!--    <p class="section-label">Reports &amp; other writing</p>  -->
