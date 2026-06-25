@@ -524,6 +524,17 @@ nav {
   line-height: 1.55;
 }
 
+.section-more {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
+.section-more a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 500;
+}
+.section-more a:hover { text-decoration: underline; }
+
 /* ── Teaching ── */
 .course-grid {
   display: grid;
@@ -639,7 +650,7 @@ footer::before {
   content: '';
   position: absolute;
   inset: 0;
-  background-image: url('../img/footer-texture.jpg');
+  background-image: url('/assets/img/footer-texture.jpg');
   background-size: cover;
   background-position: center;
   opacity: 0.12;
