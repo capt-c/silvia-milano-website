@@ -14,12 +14,24 @@ description: "Research by Silvia Milano — epistemology, ethics of AI, and reco
     </div>
   </div>
 
-  <!-- ── Book project ── -->
+  <!-- ── In progress ── -->
   <section class="section">
-<!--    <p class="section-label">Book project</p>  -->
-    <h2 class="section-title">Borrowed Reason</h2>
-    <p style="max-width: 640px;">A philosophical account of how recommender systems and AI assistants reshape individual rational agency, asking whether — and under what conditions — AI can make us more rational. Manuscript in progress.</p>
+  <!--  <p class="section-label">Work in progress</p>  -->
+    <h2 class="section-title">Under review &amp; in preparation</h2>
+    <ul class="pub-list">
+      {% for pub in site.data.publications.in_progress %}
+      <li class="pub-item">
+        <span class="pub-year" style="color: var(--text-light); font-style: italic;"></span>
+        <div class="pub-body">
+          <p class="pub-title">{{ pub.title }}</p>
+          {% if pub.authors %}<p class="pub-authors">{{ pub.authors }}</p>{% endif %}
+          {% if pub.description %}<p class="news-desc" style="margin-top:0.3rem;">{{ pub.description }}</p>{% endif %}
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
   </section>
+
   
   <!-- ── Selected publications ── -->
   <section class="section">
@@ -50,22 +62,5 @@ description: "Research by Silvia Milano — epistemology, ethics of AI, and reco
     </ul>
   </section>
 
-  <!-- ── In progress ── -->
-  <section class="section">
-  <!--  <p class="section-label">Work in progress</p>  -->
-    <h2 class="section-title">Under review &amp; in preparation</h2>
-    <ul class="pub-list">
-      {% for pub in site.data.publications.in_progress %}
-      <li class="pub-item">
-        <span class="pub-year" style="color: var(--text-light); font-style: italic;"></span>
-        <div class="pub-body">
-          <p class="pub-title">{{ pub.title }}</p>
-          {% if pub.authors %}<p class="pub-authors">{{ pub.authors }}</p>{% endif %}
-          {% if pub.description %}<p class="news-desc" style="margin-top:0.3rem;">{{ pub.description }}</p>{% endif %}
-        </div>
-      </li>
-      {% endfor %}
-    </ul>
-  </section>
 
 </main>
