@@ -1,0 +1,377 @@
+---
+layout: default
+title: CV
+description: "Academic CV of Silvia Milano — philosopher at TU Munich working on epistemology, ethics of AI, and recommender systems."
+---
+
+<style>
+  .cv-section { max-width: var(--max-w); margin: 0 auto; padding: 2.5rem 2rem 0; }
+  .cv-section:last-child { padding-bottom: 3.75rem; }
+  .cv-section-title {
+    font-family: var(--font-sans);
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent);
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 1.5rem;
+  }
+  .cv-row {
+    display: grid;
+    grid-template-columns: 130px 1fr;
+    gap: 0 1.5rem;
+    margin-bottom: 1.1rem;
+  }
+  .cv-year {
+    font-size: 0.8rem;
+    color: var(--text-light);
+    padding-top: 0.1rem;
+    font-variant-numeric: tabular-nums;
+  }
+  .cv-body strong { color: var(--text); font-weight: 600; font-size: 0.95rem; }
+  .cv-body p { font-size: 0.88rem; color: var(--text-mid); line-height: 1.6; margin-top: 0.15rem; }
+  .cv-body a { color: var(--accent); text-decoration: none; }
+  .cv-body a:hover { text-decoration: underline; }
+  .cv-pub-list { list-style: none; display: flex; flex-direction: column; }
+  .cv-pub-item { padding: 0.9rem 0; border-bottom: 1px solid var(--border); font-size: 0.88rem; color: var(--text-mid); line-height: 1.65; }
+  .cv-pub-item:first-child { padding-top: 0; }
+  .cv-pub-item:last-child { border-bottom: none; }
+  .cv-pub-item a { color: var(--text); text-decoration: none; font-weight: 600; }
+  .cv-pub-item a:hover { color: var(--accent); }
+  .cv-doi { display: inline-block; font-size: 0.78rem; color: var(--accent) !important; font-weight: 400 !important; margin-top: 0.15rem; }
+  .cv-profile { font-size: 1rem; color: var(--text-mid); line-height: 1.8; max-width: 720px; }
+  .cv-download { padding: 1.5rem 2rem 0; max-width: var(--max-w); margin: 0 auto; }
+  .cv-inline-list { font-size: 0.88rem; color: var(--text-mid); line-height: 1.8; padding-left: 1.1rem; }
+  .cv-inline-list li { margin-bottom: 0.3rem; }
+
+  @media (max-width: 600px) {
+    .cv-row { grid-template-columns: 1fr; gap: 0.1rem; }
+    .cv-year { font-size: 0.75rem; }
+  }
+</style>
+
+<main>
+
+  <div class="page-header">
+    <div class="page-header-inner">
+      <h1>Curriculum Vitae</h1>
+      <p class="cv-profile">
+        I work at the intersection of formal epistemology, ethics of AI, and philosophy of technology. My research examines how algorithmic systems — particularly recommender systems — shape knowledge, values, and rational agency, and develops frameworks for evaluating and governing their effects. I draw on Bayesian epistemology, social epistemology, and political philosophy to build theoretically rigorous accounts with implications for policy and design.
+      </p>
+    </div>
+  </div>
+
+  <div class="cv-download">
+    <a href="{{ '/assets/cv.pdf' | relative_url }}" class="btn btn-primary" download>Download full CV (PDF)</a>
+  </div>
+
+  <!-- ── Current position ── -->
+  <div class="cv-section">
+    <h2 class="cv-section-title">Current position</h2>
+
+    <div class="cv-row">
+      <span class="cv-year">Aug 2025–present</span>
+      <div class="cv-body">
+        <strong>Akademische Rätin</strong> (equiv. Senior Lecturer / Associate Professor)<br>
+        <p>Chair of Philosophy and History of Science and Technology, TU Munich</p>
+        <p><strong>Head of Research</strong>, <a href="https://ethicaldatainitiative.org" target="_blank" rel="noopener">Ethical Data Initiative</a>, TUM Think Tank</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── Previous positions ── -->
+  <div class="cv-section">
+    <h2 class="cv-section-title">Previous positions</h2>
+
+    <div class="cv-row">
+      <span class="cv-year">2023–2025</span>
+      <div class="cv-body">
+        <strong>Senior Lecturer in Philosophy</strong>
+        <p>University of Exeter</p>
+      </div>
+    </div>
+
+    <div class="cv-row">
+      <span class="cv-year">2023–2025</span>
+      <div class="cv-body">
+        <strong>Humboldt Fellow</strong> (Experienced Researchers)
+        <p>Munich Center for Mathematical Philosophy (MCMP), LMU Munich</p>
+      </div>
+    </div>
+
+    <div class="cv-row">
+      <span class="cv-year">2022–2023</span>
+      <div class="cv-body">
+        <strong>Lecturer in Philosophy of Data and Data Ethics</strong>
+        <p>University of Exeter</p>
+      </div>
+    </div>
+
+    <div class="cv-row">
+      <span class="cv-year">2020–2024</span>
+      <div class="cv-body">
+        <strong>Associate Researcher</strong>, Governance of Emerging Technologies
+        <p>Oxford Internet Institute, University of Oxford</p>
+      </div>
+    </div>
+
+    <div class="cv-row">
+      <span class="cv-year">2020–2022</span>
+      <div class="cv-body">
+        <strong>Research Fellow</strong>
+        <p>Future of Humanity Institute, Faculty of Philosophy, University of Oxford</p>
+      </div>
+    </div>
+
+    <div class="cv-row">
+      <span class="cv-year">2019–2022</span>
+      <div class="cv-body">
+        <strong>William Golding Junior Research Fellow</strong> in Philosophy
+        <p>Brasenose College, University of Oxford</p>
+      </div>
+    </div>
+
+    <div class="cv-row">
+      <span class="cv-year">2018–2020</span>
+      <div class="cv-body">
+        <strong>Postdoctoral Researcher</strong>, Digital Ethics Lab
+        <p>Oxford Internet Institute, University of Oxford</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── Education ── -->
+  <div class="cv-section">
+    <h2 class="cv-section-title">Education</h2>
+
+    <div class="cv-row">
+      <span class="cv-year">2018</span>
+      <div class="cv-body">
+        <strong>PhD in Philosophy</strong>
+        <p>London School of Economics and Political Science<br>
+        Thesis: <em>De se beliefs and centred uncertainty</em><br>
+        Supervisors: Prof. Christian List &amp; Prof. Anna Mahtani<br>
+        Examiners: Prof. Luc Bovens (UNC Chapel Hill) &amp; Prof. Robbie Williams (Leeds)</p>
+      </div>
+    </div>
+
+    <div class="cv-row">
+      <span class="cv-year">2011</span>
+      <div class="cv-body">
+        <strong>SNS Licence Diploma</strong>, Philosophy
+        <p>Scuola Normale Superiore, Pisa</p>
+      </div>
+    </div>
+
+    <div class="cv-row">
+      <span class="cv-year">2009</span>
+      <div class="cv-body">
+        <strong>MA</strong> <em>(summa cum laude)</em>, Philosophy and Forms of Knowledge
+        <p>University of Pisa</p>
+      </div>
+    </div>
+
+    <div class="cv-row">
+      <span class="cv-year">2007</span>
+      <div class="cv-body">
+        <strong>BA</strong> <em>(summa cum laude)</em>, Philosophy
+        <p>University of Pisa</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── Articles ── -->
+  <div class="cv-section">
+    <h2 class="cv-section-title">Journal articles</h2>
+    <ol class="cv-pub-list" reversed>
+      <li class="cv-pub-item">
+        Hajek, K. M., Trauttmansdorff, P., Leonelli, S., Guttinger, S., and <strong>Milano, S.</strong> 'How to Foster Responsible and Resilient Data: The Ethical Data Initiative.' <em>Computer</em>, 58(4), 95–99 (2025).<br>
+        <a class="cv-doi" href="https://doi.org/10.1109/MC.2024.3522696" target="_blank" rel="noopener">doi:10.1109/MC.2024.3522696</a>
+      </li>
+      <li class="cv-pub-item">
+        <strong>Milano, S.</strong> and C. Prunkl. 'Algorithmic profiling as a source of hermeneutical injustice.' <em>Philosophical Studies</em>, 182(1), 185–203 (2025).<br>
+        <a class="cv-doi" href="https://doi.org/10.1007/s11098-023-02095-2" target="_blank" rel="noopener">doi:10.1007/s11098-023-02095-2</a>
+      </li>
+      <li class="cv-pub-item">
+        Deldjoo, Y., He, Z., McAuley, J., Korikov, A., Sanner, S., Ramisa, A., Vidal, R., Sathiamoorthy, M., Kasirzadeh, A., and <strong>Milano, S.</strong> 'Tutorial on Recommendation with Generative Models (Gen-RecSys).' <em>Proceedings of WSDM '25</em>, ACM, 1002–1004 (2025).<br>
+        <a class="cv-doi" href="https://doi.org/10.1145/3701551.3703485" target="_blank" rel="noopener">doi:10.1145/3701551.3703485</a>
+      </li>
+      <li class="cv-pub-item">
+        Deldjoo, Y., He, Z., McAuley, J., et al., and <strong>Milano, S.</strong> 'A review of modern recommender systems using generative models (Gen-RecSys).' <em>Proceedings of the 30th ACM SIGKDD Conference</em>, 6448–6458 (2024).<br>
+        <a class="cv-doi" href="https://doi.org/10.1145/3637528.3671474" target="_blank" rel="noopener">doi:10.1145/3637528.3671474</a>
+      </li>
+      <li class="cv-pub-item">
+        <strong>Milano, S.</strong> and S. Nyholm. 'Advanced AI assistants that act on our behalf may not be ethically or legally feasible.' <em>Nature Machine Intelligence</em>, 6(8), 846–847 (2024).<br>
+        <a class="cv-doi" href="https://doi.org/10.1038/s42256-024-00877-9" target="_blank" rel="noopener">doi:10.1038/s42256-024-00877-9</a>
+      </li>
+      <li class="cv-pub-item">
+        <strong>Milano, S.</strong> and A. Perea. 'Rational Updating at the Crossroads.' <em>Economics and Philosophy</em>, 40(1), 190–211 (2024).<br>
+        <a class="cv-doi" href="https://doi.org/10.1017/S0266267122000360" target="_blank" rel="noopener">doi:10.1017/S0266267122000360</a>
+      </li>
+      <li class="cv-pub-item">
+        <strong>Milano, S.</strong>, McGrane, J., and Leonelli, S. 'Large language models challenge the future of higher education.' <em>Nature Machine Intelligence</em> (2023).<br>
+        <a class="cv-doi" href="https://doi.org/10.1038/s42256-023-00644-2" target="_blank" rel="noopener">doi:10.1038/s42256-023-00644-2</a>
+      </li>
+      <li class="cv-pub-item">
+        <strong>Milano, S.</strong> 'Bayesian Beauty.' <em>Erkenntnis</em>, 87, 657–676 (2022). Winner of the LSE Philosophy Popper Prize 2017/18.<br>
+        <a class="cv-doi" href="https://doi.org/10.1007/s10670-019-00212-4" target="_blank" rel="noopener">doi:10.1007/s10670-019-00212-4</a>
+      </li>
+      <li class="cv-pub-item">
+        <strong>Milano, S.</strong>, Mittelstadt, B., Wachter, S., and Russell, C. 'Epistemic fragmentation poses a threat to the governance of online targeting.' <em>Nature Machine Intelligence</em>, 3, 466–472 (2021).<br>
+        <a class="cv-doi" href="https://doi.org/10.1038/s42256-021-00358-3" target="_blank" rel="noopener">doi:10.1038/s42256-021-00358-3</a>
+      </li>
+      <li class="cv-pub-item">
+        <strong>Milano, S.</strong>, Taddeo, M., and Floridi, L. 'Ethical Aspects of Multi-stakeholder Recommendation Systems.' <em>The Information Society</em>, 37(1), 35–45 (2021).<br>
+        <a class="cv-doi" href="https://doi.org/10.1080/01972243.2020.1832636" target="_blank" rel="noopener">doi:10.1080/01972243.2020.1832636</a>
+      </li>
+      <li class="cv-pub-item">
+        <strong>Milano, S.</strong>, Taddeo, M., and Floridi, L. 'Recommender Systems and their Ethical Challenges.' <em>AI &amp; Society</em>, 35, 957–967 (2020).<br>
+        <a class="cv-doi" href="https://doi.org/10.1007/s00146-020-00950-y" target="_blank" rel="noopener">doi:10.1007/s00146-020-00950-y</a>
+      </li>
+    </ol>
+  </div>
+
+  <!-- ── Book chapters ── -->
+  <div class="cv-section">
+    <h2 class="cv-section-title">Book chapters &amp; edited volumes</h2>
+    <ol class="cv-pub-list" reversed>
+      <li class="cv-pub-item">
+        Kasirzadeh, A. and <strong>Milano, S.</strong> 'Societal Harms and Risks.' In Deldjoo et al., <em>Recommendation with Generative Models</em>. <em>Foundations and Trends in Information Retrieval</em>, 20(1–2), 1–176 (2026).<br>
+        <a class="cv-doi" href="https://doi.org/10.1108/FTINR-06-2025-0109" target="_blank" rel="noopener">doi:10.1108/FTINR-06-2025-0109</a>
+      </li>
+      <li class="cv-pub-item">
+        <strong>Milano, S.</strong> 'Recommended!' In David Edmonds (ed.), <em>Living with AI: Moral Challenges</em>. Oxford University Press (2024).
+      </li>
+      <li class="cv-pub-item">
+        <strong>Milano, S.</strong> 'Personalizzazione, frammentazione: le piattaforme digitali e le nuove modalità di accesso all'informazione.' In <em>Trasformazione Digitale e Intelligenza Artificiale</em>, RAI Ufficio Studi, RAI Libri (2024).
+      </li>
+      <li class="cv-pub-item">
+        Burr, C. and <strong>Milano, S.</strong> (eds.). <em>The 2019 Yearbook of the Digital Ethics Lab</em>. Springer (2020).<br>
+        <a class="cv-doi" href="https://doi.org/10.1007/978-3-030-29145-7_1" target="_blank" rel="noopener">doi:10.1007/978-3-030-29145-7_1</a>
+      </li>
+    </ol>
+  </div>
+
+  <!-- ── Reports ── -->
+  <div class="cv-section">
+    <h2 class="cv-section-title">Reports</h2>
+    <ol class="cv-pub-list">
+      <li class="cv-pub-item">
+        Jones, E., Miller, C., and <strong>Milano, S.</strong> <em><a href="https://www.adalovelaceinstitute.org/wp-content/uploads/2022/11/Ada-Lovelace-Institute-Inform-Educate-Entertain...and-Recommend-Nov-2022.pdf" target="_blank" rel="noopener">Inform, educate, entertain… and recommend? Exploring the use and ethics of recommendation systems in public service media.</a></em> Ada Lovelace Institute &amp; BBC (2022). AHRC-funded.
+      </li>
+    </ol>
+  </div>
+
+  <!-- ── In progress ── -->
+  <div class="cv-section">
+    <h2 class="cv-section-title">Work in progress</h2>
+    <ul class="cv-pub-list">
+      <li class="cv-pub-item"><strong>Book manuscript on AI and Rationality</strong></li>
+      <li class="cv-pub-item">'AI and relationship norms' — on how AI involvement in social life challenges existing frameworks for relational autonomy</li>
+      <li class="cv-pub-item">'Recommender Systems Worsen Epistemic Polarisation' (with Lux Miranda) — agent-based modelling of belief dynamics in algorithmically mediated social networks</li>
+      <li class="cv-pub-item">'Recommender Systems for Social Good: Perspectives on Evaluation' (joint with workshop participants, MCMP 2025)</li>
+      <li class="cv-pub-item">'Algorithmic Profiling, Behavioural Fairness and Equality of Opportunity'</li>
+      <li class="cv-pub-item">'Two modes of reasoning about <em>de se</em> beliefs'</li>
+    </ul>
+  </div>
+
+  <!-- ── Awards ── -->
+  <div class="cv-section">
+    <h2 class="cv-section-title">Fellowships &amp; awards</h2>
+
+    <div class="cv-row">
+      <span class="cv-year">2023–2025</span>
+      <div class="cv-body">
+        <strong>Humboldt Fellowship for Experienced Researchers</strong>
+        <p>Alexander von Humboldt Foundation. 18 months fully funded research stay at the MCMP, LMU Munich, sponsored by Prof. Stephan Hartmann.</p>
+      </div>
+    </div>
+
+    <div class="cv-row">
+      <span class="cv-year">2017/18</span>
+      <div class="cv-body">
+        <strong>Popper Prize</strong>
+        <p>Awarded by the LSE Department of Philosophy to the best graduate student paper of the year, for 'Bayesian Beauty'.</p>
+      </div>
+    </div>
+
+    <div class="cv-row">
+      <span class="cv-year">2013–2016</span>
+      <div class="cv-body">
+        <strong>AHRC PhD Scholarship</strong>
+        <p>Managing Severe Uncertainty Project, Centre for the Philosophy of Natural and Social Sciences, LSE.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── Teaching ── -->
+  <div class="cv-section">
+    <h2 class="cv-section-title">Teaching</h2>
+
+    <div class="cv-row">
+      <span class="cv-year"></span>
+      <div class="cv-body">
+        <p><strong>ASPIRE Fellowship</strong> and <strong>PGCertHE</strong>, UK Higher Education Academy (2024)</p>
+      </div>
+    </div>
+
+    <div class="cv-row">
+      <span class="cv-year">TUM</span>
+      <div class="cv-body">
+        <strong>Current modules</strong> (Masters level)
+        <p>Philosophy of Information · Social Epistemology · Philosophy of Decision Making Systems</p>
+      </div>
+    </div>
+
+    <div class="cv-row">
+      <span class="cv-year">Exeter</span>
+      <div class="cv-body">
+        <strong>Modules designed and coordinated</strong>
+        <p>Data Governance and Ethics (Masters) · Introduction to Philosophy of AI (UG/Masters) · Social Epistemology (UG) · Ethics of Emerging Technologies (Masters)</p>
+      </div>
+    </div>
+
+    <div class="cv-row">
+      <span class="cv-year">Oxford &amp; LMU</span>
+      <div class="cv-body">
+        <strong>Other teaching</strong>
+        <p>Workshop on Industrial Ethics, CDT Mathematical Modelling, Oxford (2021) · Formal Epistemology lecture stream, MCMP Summer School on Mathematical Philosophy for Female Students, LMU Munich (2019) · The Philosophy and Ethics of Information, MSc, OII Oxford</p>
+      </div>
+    </div>
+
+    <div class="cv-row">
+      <span class="cv-year"></span>
+      <div class="cv-body">
+        <strong>Supervision</strong>
+        <p>Undergraduate dissertations in Philosophy (Oxford, Exeter); MSc theses in Social Sciences of the Internet (OII Oxford). Enquiries from prospective Masters and doctoral students are welcome — <a href="mailto:{{ site.data.about.email }}">get in touch</a>.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── Selected talks ── -->
+  <div class="cv-section">
+    <h2 class="cv-section-title">Selected recent talks</h2>
+    <ul class="cv-inline-list">
+      <li>'A Dilemma for Preference-Based Representation' — <a href="https://epistemologyseminars.miklosredei.workers.dev" target="_blank" rel="noopener">Philosophy of Science &amp; Formal Epistemology Seminar</a>, University of Technology Nuremberg, June 2026</li>
+      <li><strong>[Keynote]</strong> 'Borrowed Wisdom: AI-assisted learning and the temptation of easy knowledge' — <a href="https://www.supsi.ch/en/euonair-symposium-on-the-ethics-of-generative-ai-in-education-and-research-" target="_blank" rel="noopener">EUonAIR Symposium on the Ethics of Generative AI</a>, Lugano, June 2026</li>
+      <li>'Recommender Systems and Epistemic Polarisation' — BSPS Conference, Glasgow, July 2025</li>
+      <li>'Phaedrus' Error and Hayek's Trap' — Uehiro Workshop on AI, Relationships and Influence, Oxford, June 2025</li>
+      <li>'Algorithmic Recommendation: What's the Problem?' — CDT ART-AI Seminar, Bath, June 2025</li>
+      <li><strong>[Keynote]</strong> 'Accuracy of Prediction and Freedom of Choice' — GWP Congress on Philosophy of Science, Erlangen, March 2025</li>
+      <li>'Rational Updating at the Crossroads' — First Paris Conference: Frontiers of Philosophy and Economics, Paris School of Economics, May 2024</li>
+      <li>'AI and Epistemic Injustice' — COGITO Epistemology Research Centre, Glasgow, March 2024</li>
+      <li>'Recommender Systems and Epistemic Polarisation' — LSE Choice Group Seminar, March 2024</li>
+      <li>'Rational Updating at the Crossroads' — Carnegie Mellon Philosophy Colloquium, April 2023</li>
+    </ul>
+    <p style="margin-top: 1.25rem; font-size: 0.85rem; color: var(--text-light);">Full list available in the <a href="{{ '/assets/cv.pdf' | relative_url }}">PDF version</a>.</p>
+  </div>
+
+  <!-- ── Languages ── -->
+  <div class="cv-section">
+    <h2 class="cv-section-title">Languages</h2>
+    <p style="font-size: 0.88rem; color: var(--text-mid);">Italian (native) · English (fluent) · French (C2) · German (B1) · Mandarin Chinese (HSK4)</p>
+  </div>
+
+</main>
