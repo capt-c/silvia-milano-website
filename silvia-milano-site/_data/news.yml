@@ -1,6 +1,31 @@
 # News items — most recent first
 # Types: talk, keynote, workshop, publication, award, media, event
 
+- date: "Jun 2026"
+  type: "talk"
+  title: "'A Dilemma for Preference-Based Representation' — Philosophy of Science & Formal Epistemology Seminar, University of Technology Nuremberg"
+  url: "https://epistemologyseminars.miklosredei.workers.dev"
+
+- date: "Jun 2026"
+  type: "keynote"
+  title: "Keynote: 'Borrowed Wisdom: AI-assisted learning and the temptation of easy knowledge' — EUonAIR Symposium on the Ethics of Generative AI in Education and Research, Lugano"
+  url: "https://www.supsi.ch/en/euonair-symposium-on-the-ethics-of-generative-ai-in-education-and-research-"
+
+- date: "Jun 2026"
+  type: "event"
+  title: "RDA Webinar on Recommender Systems for Social Good"
+  description: "Online webinar across multiple time zones. Recordings and slides available on the RDA website."
+  url: "https://www.rd-alliance.org/news/rda-webinar-recommender-systems-for-social-good-dr-silvia-milano/"
+
+- date: "Mar 2026"
+  type: "workshop"
+  title: "EDI Workshop on Recommender Systems for Social Good — TUM Think Tank, Munich"
+  url: "https://ethicaldatainitiative.org/event/edi-workshop-on-recommender-systems-for-social-good-recsys/"
+
+- date: "Jul 2025"
+  type: "talk"
+  title: "'Recommender Systems and Epistemic Polarisation' — BSPS Conference, Glasgow"
+
 - date: "Jun 2025"
   type: "talk"
   title: "'Phaedrus' Error and Hayek's Trap' — Uehiro Workshop on AI, Relationships and Influence, Oxford"
@@ -16,33 +41,83 @@
   description: "I organised this interdisciplinary workshop bringing together researchers from computer science, economics, and philosophy."
   url: "https://www.mcmp.philosophie.uni-muenchen.de/events_this-_week/recommender_systems_26052025/index.html"
 
-- date: "May 2025"
-  type: "talk"
-  title: "Epistemic obstacles to the governance of algorithmic systems — European New School of Digital Studies, Frankfurt (Oder)"
-
 - date: "Mar 2025"
   type: "keynote"
   title: "Keynote: 'Accuracy of Prediction and Freedom of Choice' — GWP Congress on Philosophy of Science, Erlangen"
   url: "https://www.wissphil.de/gwp-conference/"
 
+- date: "Feb 2025"
+  type: "talk"
+  title: "Tutorial on Recommendation with Generative Models (Gen-RecSys) — WSDM 2025, Hannover"
+  description: "Co-presented with Yashar Deldjoo et al."
+  url: "https://doi.org/10.1145/3701551.3703485"
+
+- date: "Jan 2025"
+  type: "talk"
+  title: "'Recommender Systems and Epistemic Polarisation' — Humboldt Salon, Munich"
+
 - date: "Jan 2025"
   type: "talk"
   title: "'Algorithmic Recommendation: What's the Problem?' — Ethics of AI Research Colloquium, LMU Munich"
 
-- date: "Jul 2025"
+- date: "Jan 2025"
   type: "talk"
-  title: "'Recommender Systems and Epistemic Polarisation' — BSPS Conference, Glasgow"
-
-- date: "Jun 2024"
-  type: "talk"
-  title: "Public lecture on Large Language Models in Teaching and Research — LMU Munich"
-
-- date: "Mar 2024"
-  type: "talk"
-  title: "'AI and Epistemic Injustice' — COGITO Epistemology Research Centre, Glasgow"
+  title: "'Algorithmic Recommendation: What's the Problem?' — WIP Seminar, MCMP, LMU Munich"
 
 - date: "Aug 2024"
   type: "talk"
   title: "Tutorial on Gen-RecSys — KDD Conference, Barcelona"
   description: "Co-presented with Yashar Deldjoo et al."
   url: "https://doi.org/10.1145/3637528.3671474"
+
+- date: "Aug 2024"
+  type: "talk"
+  title: "'Rational Updating at the Crossroads' — Workshop on Foundations of Decision Theory, MCMP, LMU Munich"
+
+- date: "Jul 2024"
+  type: "talk"
+  title: "'Accuracy and Freedom' — Northeastern Ethics & Epistemology Workshop, London"
+
+- date: "Jun 2024"
+  type: "talk"
+  title: "Public lecture on Large Language Models in Teaching and Research — LMU Munich"
+
+- date: "Jun 2024"
+  type: "talk"
+  title: "'Recommender Systems and Epistemic Polarisation' — Workshop on Agent-Based Modelling, MCMP, LMU Munich"
+
+- date: "May 2024"
+  type: "talk"
+  title: "'Rational Updating at the Crossroads' — First Paris Conference: Frontiers of Philosophy and Economics, Paris School of Economics"
+
+- date: "Mar 2024"
+  type: "talk"
+  title: "'AI and Epistemic Injustice' — COGITO Epistemology Research Centre, Glasgow"
+
+- date: "Mar 2024"
+  type: "talk"
+  title: "'Recommender Systems and Epistemic Polarisation' — LSE Choice Group Seminar"
+
+- date: "Nov 2023"
+  type: "talk"
+  title: "'Recommended Bias' — PPE Society Seventh Annual Meeting, New Orleans"
+
+- date: "Nov 2023"
+  type: "talk"
+  title: "'Recommender Systems and Epistemic Polarisation' — Research Seminar in Decision and Action Theory, MCMP, LMU Munich"
+
+- date: "Sep 2023"
+  type: "talk"
+  title: "'Recommender Systems and Epistemic Polarisation' — PhilML'23, Tübingen"
+
+- date: "Apr 2023"
+  type: "talk"
+  title: "'Rational Updating at the Crossroads' — Carnegie Mellon Philosophy Colloquium"
+
+- date: "Mar 2023"
+  type: "talk"
+  title: "'Epistemic Injustice and Algorithmic Profiling' — Invited lecture for the MSt in Practical Ethics, Uehiro Centre, University of Oxford"
+
+- date: "May 2023"
+  type: "talk"
+  title: "'Epistemic obstacles to the governance of algorithmic systems' — Workshop on the Ethics of Persuasive Technologies, Oxford"
