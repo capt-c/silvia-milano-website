@@ -243,9 +243,6 @@ nav {
   background: var(--bg-limestone);
 }
 
-.section-limestone .theme-card {
-  background: #fff;
-}
 
 /* Section label — italic serif instead of caps */
 .section-label {
@@ -657,7 +654,7 @@ footer::before {
   content: '';
   position: absolute;
   inset: 0;
-  background-image: url('/assets/img/footer-texture.jpg');
+  background-image: url('../img/footer-texture.jpg');
   background-size: cover;
   background-position: center;
   opacity: 0.12;
