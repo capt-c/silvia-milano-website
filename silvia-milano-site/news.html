@@ -16,8 +16,8 @@ description: "Talks, public engagement, media appearances, and events by Silvia 
 
   <!-- ── Public engagement & media ── -->
   <section class="section">
-    <p class="section-label">Public engagement</p>
-<!--    <h2 class="section-title">Engagement &amp; media</h2>  -->
+<!--    <p class="section-label">Public engagement</p>  -->
+    <h2 class="section-title">Media &amp; public engagement </h2>  
     <div class="news-list">
       {% for item in site.data.news %}
         {% if item.type == "media" or item.type == "policy" or item.type == "event" or item.type == "award" %}
@@ -38,8 +38,8 @@ description: "Talks, public engagement, media appearances, and events by Silvia 
 
   <!-- ── Selected talks ── -->
   <section class="section section-limestone" id="talks">
-    <p class="section-label">Recent talks</p>
-<!--    <h2 class="section-title">Selected talks</h2>  -->
+<!--    <p class="section-label">Recent talks</p>  -->
+    <h2 class="section-title">Recent talks</h2>  
     <div class="news-list">
       {% assign talk_count = 0 %}
       {% for item in site.data.news %}
