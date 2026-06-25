@@ -113,8 +113,8 @@ reports:
 
 in_progress:
 
-  - title: "Borrowed Reason"
-    description: "(Book manuscript) A philosophical account of how recommender systems and AI assistants reshape individual rational agency, asking whether and under what conditions AI could make us more rational."
+  - title: "Borrowed Reason (Book manuscript)"
+    description: "A philosophical account of how recommender systems and AI assistants reshape individual rational agency, asking whether and under what conditions AI could make us more rational."
 
   - title: "AI and relationship norms"
     description: "AI systems are increasingly involved in our social life and relationships. Drawing on literature on epistemic injustice, this paper argues that current approaches to regulate this may put our relational autonomy at risk."
