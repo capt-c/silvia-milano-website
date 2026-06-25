@@ -109,19 +109,6 @@ in_progress:
   - title: "AI and relationship norms"
     description: "AI systems are increasingly involved in our social life and relationships. Drawing on literature on epistemic injustice, this paper argues that current approaches to regulate this may put our relational autonomy at risk."
 
-  - title: "Recommender Systems for Social Good: Perspectives on Evaluation"
-    authors: "Milano, S. et al."
-    description: "Joint paper with selected participants in the workshop on Recommender Systems and Digital Nudging, MCMP Munich, May 2025."
-
   - title: "Recommender Systems Worsen Epistemic Polarisation"
     authors: "Milano, S. and Miranda, L."
     description: "Uses agent-based modelling to study belief evolution in social networks mediated by recommender systems. Findings indicate that belief polarisation emerges rapidly irrespective of the choice of recommendation protocol."
-
-  - title: "Algorithmic Profiling, Behavioural Fairness and Equality of Opportunity"
-    description: "Argues that personalised predictions based on behavioural variables limit equality of opportunity."
-
-  - title: "Centred Probabilities can be Objective Chances"
-    description: "Argues that probabilities defined over centred or self-locating propositions can be interpreted as objective chances when they satisfy a specific set of conditions, with implications for the understanding of natural laws."
-
-  - title: "Two modes of reasoning about de se beliefs"
-    description: "Argues that reasoning with self-locating beliefs can follow an explorer or a path-finder mode, and investigates the relationship between the two modes."
